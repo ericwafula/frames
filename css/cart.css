@@ -21,3 +21,48 @@ body{
 }
 
 /* ########## HEADER ######### */
+.header{
+    height: 70px;
+    display: grid;
+    align-content: center;
+}
+
+/* logo */
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo h5{
+    font-size: 24px;
+    color: var(--color-crusta);
+    font-weight: bold;
+}
+
+/* menu */
+#menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    color: var(--color-pancho);
+}
+
+#menu li{
+    cursor: pointer;
+}
+
+#menu li:hover{
+    border-bottom: var(--color-crusta) solid 2px;
+}
+
+/* ###### BODY ###### */
+.body{
+    margin-top: 100px;
+}
+
+#heading{
+    color: var(--color-crusta);
+    text-align: center;
+    font-size: 48px;
+}
