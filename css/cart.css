@@ -66,3 +66,8 @@ body{
     text-align: center;
     font-size: 48px;
 }
+
+/* content */
+.content{
+    margin-top: 100px;
+}
