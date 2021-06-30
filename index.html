@@ -11,10 +11,69 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
+    <script src="js/main.js"></script>
     <title>Frames</title>
 </head>
 <body>
-    
+<!-- Navigation Bar -->
+	<header>
+		<h1 class="logo">Frames</h1>
+		<nav>
+			<ul class="nav-area">
+				<li><a href="#">About</a></li>
+				<li><a href="#login">Login</a></li>
+				<li><a href="#register">Signup</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- End of Nav Bar -->
+	<div class="align">
+		<div class="card">
+			<div class="head">
+				<div></div>
+				<a id="login" class="selected" href="#login">Login</a>
+				<a id="register" href="#register">Sign Up</a>
+				<div></div>
+			</div>
+			<div class="tabs">
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="Username" type="text">
+							<img src="images/img/user.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Password" type="password">
+							<img src="images/img/pass.svg">
+						</div>
+						<label class="checkbox">
+							<input type="checkbox">
+							<span>Remember me</span>
+						</label>
+					</div>
+					<button>Login</button>
+				</form>
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="Email" type="text">
+							<img src="images/img/mail.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Username" type="text">
+							<img src="images/img/user.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Password" type="password">
+							<img src="images/img/pass.svg">
+						</div>
+					</div>
+					<button>Register</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/main.js"></script>
 </body>
 </html>
