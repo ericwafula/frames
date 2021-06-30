@@ -1,0 +1,26 @@
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/Logo Title */
+  .header {
+    padding: 20px;
+    text-align: center;
+    background: #fcfaf2;
+    color: rgb(247, 200, 139);
+    font-size: 8px;
+  }
+  
+  .main {
+    width: 450px;
+    padding: 120px;
+    box-sizing: border-box;
+    background-color: rgb(238, 224, 164);
+  }
+  
+  .center {
+    text-align: center;
+    font-size: medium;
+  }
