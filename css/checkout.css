@@ -86,9 +86,36 @@ body{
 /* ####### table ######### */
 table{
     border: var(--color-gray) solid 1px;
-    width: 75%;
+    width: 70%;
     height: 100%;
     border-radius: 20px;
+    border-collapse: separate;
+}
+
+td{
+    border-top: var(--color-gray) solid 1px;
+    font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--color-gray);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th{
+    color: var(--color-hemlock);
+    text-align: center;
+    font-size: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Image table */
+#image-table{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 table img{
