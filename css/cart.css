@@ -108,6 +108,12 @@ body{
     outline: none;
 }
 
+#amount-heading{
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: var(--color-gray);
+}
+
 /* calculate button */
 .btn-calculate{
     width: 100%;
@@ -192,3 +198,10 @@ label:first-child input[type=radio] {
     padding: 40px;
 }
 
+/* Styles the frame amount */
+#frame-amount{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    color: var(--color-hemlock);
+}
