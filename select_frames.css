@@ -108,11 +108,19 @@ div.gallery img {
 .frame1 {
     width: 250px;
     height: 353px;
-    background-image: url("frame-images/frame1.png");
+    
+    background-image: url("frame-images/frame21bg22.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
+
+/* .image1{
+    width: 250px;
+    height: 353px;
+    position: relative;
+  
+} */
 
 .frame2 {
     width: 250px;
@@ -150,7 +158,7 @@ div.gallery img {
 .frame16 {
     width: 250px;
     height: 197px;
-    background-image: url("frame-images/frame16.png");
+    background-image: url("frame-images/frame21bg2.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
