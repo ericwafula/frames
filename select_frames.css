@@ -93,7 +93,7 @@ div.gallery img {
 
 .first-column,
 .second-column {
-    margin-top: 50px;
+    margin-top: 150px;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
@@ -102,6 +102,7 @@ div.gallery img {
 
 .second-column {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .frame1 {
@@ -137,35 +138,35 @@ div.gallery img {
     background-repeat: no-repeat;
 }
 
-.frame1 {
+.frame14 {
     width: 250px;
-    height: 353px;
-    background-image: url("frame-images/frame1.png");
+    height: 214px;
+    background-image: url("frame-images/frame14.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
-.frame2 {
+.frame16 {
     width: 250px;
-    height: 185px;
-    background-image: url("frame-images/frame2.png");
+    height: 197px;
+    background-image: url("frame-images/frame16.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.frame3 {
+.frame17 {
     width: 250px;
-    height: 245px;
-    background-image: url("frame-images/frame3.png");
+    height: 146px;
+    background-image: url("frame-images/frame17.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.frame4 {
+.frame19 {
     width: 250px;
-    height: 245px;
-    background-image: url("frame-images/frame4.png");
+    height: 173px;
+    background-image: url("frame-images/frame19.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -178,6 +179,13 @@ div.gallery img {
     color: white;
     border-radius: 8px;
 
+}
+
+.frameprice{
+text-align: center;
+padding: 10px;
+color: var(--color-gray);
+font-size: 24px;
 }
 
 .btn-frame1:hover {
