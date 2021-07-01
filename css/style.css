@@ -94,29 +94,39 @@ body {
     color: white;
 }
 
+.buttons:hover {
+    color: white;
+}
+
 /* button container */
 #login {
     position: relative;
     right: 15px;
+    cursor: pointer;
 }
 
 /* login text */
 #login-text {
     position: relative;
-    bottom: 20px;
-    left: 30px;
+    left: 100px;
+    top: 10px;
+    cursor: pointer;
 }
 
 /* sign up text */
 #signup-text {
     position: relative;
-    bottom: 20px;
-    right: 30px;
+    left: 50px;
+    top: 10px;
+    cursor: pointer;
 }
 
 #sign-up {
     position: relative;
     left: 15px;
+    color: var(--color-hemlock);
+    background-color: white;
+    cursor: pointer;
 }
 
 /* form */
@@ -158,4 +168,9 @@ form {
     border-radius: 20px;
     margin-top: 40px;
     font-size: 24px;
+}
+
+.btn-login:hover {
+    color: white;
+    background-color: var(--color-crusta);
 }
