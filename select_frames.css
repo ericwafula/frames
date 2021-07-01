@@ -96,7 +96,7 @@ div.gallery img {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    gap: 150px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -193,4 +193,4 @@ div.gallery img {
   color: white
 ;
 ;
-} */
+}center */
