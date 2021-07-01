@@ -14,66 +14,55 @@
     <script src="js/main.js"></script>
     <title>Frames</title>
 </head>
-<body>
-<!-- Navigation Bar -->
-	<header>
-		<h1 class="logo">Frames</h1>
-		<nav>
-			<ul class="nav-area">
-				<li><a href="#">About</a></li>
-				<li><a href="#login">Login</a></li>
-				<li><a href="#register">Signup</a></li>
+<!-- Header -->
+<div class="container-fluid header">
+	<!-- Logo -->
+	<div class="row">
+		<div class="col-md-9" id="logo">
+			<h5>Frames</h5>
+		</div>
+		<!-- Menu -->
+		<div class="col-md-3 menu">
+			<ul id="menu">
+				<li>About</li>
+				<li>Login</li>
+				<li>Signup</li>
 			</ul>
-		</nav>
-	</header>
-	<!-- End of Nav Bar -->
-	<div class="align">
-		<div class="card">
-			<div class="head">
-				<div></div>
-				<a id="login" class="selected" href="#login">Login</a>
-				<a id="register" href="#register">Sign Up</a>
-				<div></div>
-			</div>
-			<div class="tabs">
-				<form>
-					<div class="inputs">
-						<div class="input">
-							<input placeholder="Username" type="text">
-							<img src="images/img/user.svg">
+		</div>
+	</div>
+</div>
+<!-- Body -->
+<div class="container-fluid body">
+	<div class="row">
+		<div class="col-md-7">
+			<h1 id="heading">Give Your Wall a Fresh<br>Look</h1>
+		</div>
+		<div class="col-md-5">
+			<div class="container-fluid form-container">
+				<div class="container-fluid button-container">
+					<div class="row">
+						<div class="col-md-6 button-container">
+							<button class="btn buttons" id="login"><span id="login-text">Login</span></button>
 						</div>
-						<div class="input">
-							<input placeholder="Password" type="password">
-							<img src="images/img/pass.svg">
-						</div>
-						<label class="checkbox">
-							<input type="checkbox">
-							<span>Remember me</span>
-						</label>
-					</div>
-					<button>Login</button>
-				</form>
-				<form>
-					<div class="inputs">
-						<div class="input">
-							<input placeholder="Email" type="text">
-							<img src="images/img/mail.svg">
-						</div>
-						<div class="input">
-							<input placeholder="Username" type="text">
-							<img src="images/img/user.svg">
-						</div>
-						<div class="input">
-							<input placeholder="Password" type="password">
-							<img src="images/img/pass.svg">
+						<div class="col-md-6 button-container">
+							<button class="btn  buttons" id="sign-up"><span id="signup-text">Sign up</span></button>
 						</div>
 					</div>
-					<button>Register</button>
+				</div>
+				<form action="#" id="form-1">
+					<div class="form-group">
+						<input type="email" name="Email Address" id="email-address" class="form-control"
+							placeholder="Email Address">
+					</div>
+					<div class="form-group">
+						<input type="password" name="Password" class="form-control" id="password"
+							placeholder="Password">
+					</div>
+					<button class="btn btn-login">Login</button>
 				</form>
 			</div>
 		</div>
 	</div>
-	<script src="./js/jquery.js"></script>
-	<script src="./js/main.js"></script>
+</div>
 </body>
 </html>
