@@ -41,6 +41,7 @@ No known bugs at the moment.
     -Shirquille Sande: shirquille.sande@student.moringaschool.com
     -Nicholas Owino: nicholas.okoth@student.moringaschool.com
     -James Njogu: james.n.mutugi@gmail.com
+    -Victor.Mutunga@student.moringaschool.com
 
 ### License
 [MIT](LICENSE)
