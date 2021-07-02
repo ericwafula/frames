@@ -1,6 +1,6 @@
 # Frames
 #### A frames design and purchase web app, 24/06/2021
-#### By **Eric Wafula, Shirquille Sande, Nicholas Owino,  James Njogu**
+#### By **Eric Wafula, Shirquille Sande, Nicholas Owino,Victor.Mutunga  James Njogu**
 
 ## Description
 A web app that helps people order custom picture frames and get personalized recommendations on interior design based on their house.
@@ -41,8 +41,8 @@ No known bugs at the moment.
     -Shirquille Sande: shirquille.sande@student.moringaschool.com
     -Nicholas Owino: nicholas.okoth@student.moringaschool.com
     -James Njogu: james.n.mutugi@gmail.com
-    -Victor.Mutunga@student.moringaschool.com
+    -Victor.Mutunga:Victor.Mutunga@student.moringaschool.com
 
 ### License
 [MIT](LICENSE)
-Copyright (c) 2021 **Eric Wafula, Shiquille Sande, Nicholas Owino, James Njogu**
+Copyright (c) 2021 **Eric Wafula, Shiquille Sande, Nicholas Owino,Victor.Mutunga James Njogu**
