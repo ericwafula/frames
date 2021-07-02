@@ -109,7 +109,7 @@ div.gallery img {
     width: 250px;
     height: 353px;
     
-    background-image: url("frame-images/frame21bg22.png");
+    background-image: url("frame-images/frame1.png");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -158,7 +158,7 @@ div.gallery img {
 .frame16 {
     width: 250px;
     height: 197px;
-    background-image: url("frame-images/frame21bg2.png");
+    background-image: url("frame-images/frame16.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
