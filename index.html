@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SITE ICON -->
-    <link rel="icon" href="./images/logo/Gallery-icon.png" type="image/x-icon">
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-    <title>Frames</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- SITE ICON -->
+	<link rel="icon" href="./images/logo/Gallery-icon.png" type="image/x-icon">
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- JS -->
+	<script src="https://code.jquery.com/jquery-3.6.0.js"
+		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
+	<script src="./js/main.js"></script>
+	<title>Frames</title>
 </head>
 
 <body>
@@ -26,7 +32,7 @@
 			<!-- Menu -->
 			<div class="col-md-3 menu">
 				<ul id="menu">
-					<li>About</li>
+					<li id="about-option">About</li>
 					<li>Login</li>
 					<li>Signup</li>
 				</ul>
@@ -51,7 +57,8 @@
 							</div>
 						</div>
 					</div>
-					<form action="#" id="form-1">
+					<!-- Login form -->
+					<form action="#" id="login-form">
 						<div class="form-group">
 							<input type="email" name="Email Address" id="email-address" class="form-control"
 								placeholder="Email Address">
@@ -60,11 +67,115 @@
 							<input type="password" name="Password" class="form-control" id="password"
 								placeholder="Password">
 						</div>
-						<button class="btn btn-login">Login</button>
+						<button class="btn btn-login" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
 					</form>
+					<!-- Sign-up form -->
+					<form action="#" id="sign-up-form">
+						<!-- First Name -->
+						<div class="form-group">
+							<input type="text" name="first-name" id="first-name" class="form-control"
+								placeholder="First Name">
+						</div>
+						<!-- Last Name -->
+						<div class="form-group">
+							<input type="text" name="last-name" id="first-name" class="form-control"
+								placeholder="Last Name">
+						</div>
+						<!-- Email Address -->
+						<div class="form-group">
+							<input type="email" name="Email Address" id="email-address" class="form-control"
+								placeholder="Email Address">
+						</div>
+						<!-- location -->
+						<div class="form-group">
+							<select name="counties" class="form-control" id="counties">
+								<option value="Mombasa" selected>Mombasa</option>
+								<option value="Kwale">Kwale</option>
+								<option value="Kilifi">Kilifi</option>
+								<option value="Tana River">Tana River</option>
+								<option value="Lamu">Lamu</option>
+								<option value="Taita/Taveta">Taita/Taveta</option>
+								<option value="Garissa">Garissa</option>
+								<option value="Wajir">Wajir</option>
+								<option value="Mandera">Mandera</option>
+								<option value="Marsabit">Marsabit</option>
+								<option value="Isiolo">Isiolo</option>
+								<option value="Meru">Meru</option>
+								<option value="Tharaka-Nithi">Tharaka-Nithi</option>
+								<option value="Embu">Embu</option>
+								<option value="Kitui">Kitui</option>
+								<option value="Machakos">Machakos</option>
+								<option value="Makueni">Makueni</option>
+								<option value="Nyandarua">Nyandarua</option>
+								<option value="Nyeri">Nyeri</option>
+								<option value="Kirinyaga">Kirinyaga</option>
+								<option value="Murang'a">Murang'a</option>
+								<option value="Kiambu">Kiambu</option>
+								<option value="Turkana">Turkana</option>
+								<option value="West Pokot">West Pokot</option>
+								<option value="Samburu">Samburu</option>
+								<option value="Trans Nzoia">Trans Nzoia</option>
+								<option value="Uasin Gishu">Uasin Gishu</option>
+								<option value="Elgeyo/Marakwet">Elgeyo/Marakwet</option>
+								<option value="Nandi">Nandi</option>
+								<option value="Baringo">Baringo</option>
+								<option value="Laikipia">Laikipia</option>
+								<option value="Nakuru">Nakuru</option>
+								<option value="Narok">Narok</option>
+								<option value="Kajiado">Kajiado</option>
+								<option value="Kericho">Kericho</option>
+								<option value="Bomet">Bomet</option>
+								<option value="Kakamega">Kakamega</option>
+								<option value="Vihiga">Vihiga</option>
+								<option value="Bungoma">Bungoma</option>
+								<option value="Busia">Busia</option>
+								<option value="Siaya">Siaya</option>
+								<option value="Kisumu">Kisumu</option>
+								<option value="Homa Bay">Homa Bay</option>
+								<option value="Migori">Migori</option>
+								<option value="Kisii">Kisii</option>
+								<option value="Nyamira">Nyamira</option>
+								<option value="Nairobi City">Nairobi City</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<input type="text" id="address" class="form-control" placeholder="Address">
+						</div>
+						<!-- Password -->
+						<div class="form-group">
+							<input type="password" name="Password" class="form-control" id="password"
+								placeholder="Password">
+						</div>
+						<button class="btn btn-login" data-bs-toggle="modal" data-bs-target="#myModal">Sign up</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<form action="#">
+									<p id="modal-heading">Upload your image</p>
+									<div class="form-group">
+										<input type="file" name="file" id="file">
+									</div>
+									<!-- upload -->
+									<button class="btn" id="upload">Upload</button>
+									<!-- next -->
+									<button class="btn" id="next-step">Next Step</button>
+									<!-- request custom frame -->
+									<button class="btn" id="custom-frame">Request Custom Frame</button>
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </body>
+
 </html>
