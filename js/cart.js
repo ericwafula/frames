@@ -10,7 +10,7 @@ var greaterThan = (value) => {
 
 // UI Logic
 $(document).ready(function(){
-    var price = 1200;
+    var price = 3200;
     $("#price").text(price);
     $("form#calculate").submit(function(event){
         event.preventDefault();
